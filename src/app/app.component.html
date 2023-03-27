@@ -11,3 +11,19 @@
   hello how are u?
 
 </h4>
+
+
+
+<div [ngStyle]="addStyles">
+Displays different styles
+</div>
+<button (click)="addStylesFunc()">Displays Styles </button>
+
+<h4>
+<p>ngStyle directive example</p>
+<ul *ngFor="let i of studentDtls">
+<div [ngStyle]="{'color':i.Rollno > 2 ? 'red':'green'}">
+Displays different styles
+</div>
+</ul>
+</h4>

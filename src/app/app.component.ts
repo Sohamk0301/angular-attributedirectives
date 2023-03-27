@@ -24,4 +24,22 @@ export class AppComponent  {
     this.addstyles['border']="2px solid black";
   }
 
+  studentDtls:any[]=[
+    {
+      Rollno:1,
+      Name:"Ram",
+      Gender:"Male"
+    },
+    {
+     Rollno:2,
+     Name:"Sham",
+     Gender:"Male", 
+    },
+    {
+      Rollno:3,
+      Name:"Hema",
+      Gender:"Female"
+    }
+  ];
+
 }
