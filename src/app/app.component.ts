@@ -42,4 +42,23 @@ export class AppComponent  {
     }
   ];
 
+  classone=true;
+  classtwo=true;
+
+  addClasses={
+    box:true,
+    border:false,
+    circle:false
+  };
+
+  displayClass(){
+    this.classone=!this.classone;
+    this.classtwo=!this.classtwo;
+  }
+
+  circleShape(){
+    this.addClasses.border=!this.addClasses.border;
+    this.addClasses.circle=!this.addClasses.circle;
+  }
+
 }
