@@ -28,4 +28,15 @@ Displays different styles
 </ul>
 </h4>
 
-
+<h2>ngClass directives</h2>
+<h4 [ngClass]="{classOne:classone, classTwo:classtwo}">
+ngClass directive is implemented
+</h4><br>
+<button (click)="displayClass()">
+  Display the class directive</button>
+<br><br>
+<div [ngClass]="addClasses"></div>
+<br>
+<button (click)="circleShape()">
+  Change to circle
+</button>
