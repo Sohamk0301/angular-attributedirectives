@@ -1,3 +1,17 @@
-p {
-  font-family: Lato;
+.classOne{
+  color: darkmagenta;
+}
+
+.classTwo{
+  background-color: aquamarine;
+}
+
+.box{
+  width: 100px;
+  height:100px;
+  background: greenyellow;
+}
+
+.border{
+  border: 2px solid black;
 }
